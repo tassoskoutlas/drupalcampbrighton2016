@@ -1,0 +1,9 @@
+name: Drupalcamp Brighton 2016 tour module
+description: Creates a tour to showcase D8 Tour API for Drupalcamp Brighton 2016.
+package: Custom
+
+type: module
+core: 8.x
+
+dependencies:
+  - drupal:tour
