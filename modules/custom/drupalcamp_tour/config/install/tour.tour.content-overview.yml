@@ -1,0 +1,38 @@
+langcode: en
+status: true
+id: content-overview
+label: 'Content overview'
+module: drupalcamp_tour
+routes:
+  - route_name: system.admin_content
+tips:
+  content-main:
+    id: content-main
+    plugin: text
+    label: 'Manage content'
+    body: 'Add, view or edit website content.'
+    weight: 1
+  content-add-button:
+    id: content-add-button
+    plugin: text
+    label: 'Button to add new content'
+    body: 'Using this button you will redirected to a page to add articles and pages'
+    weight: 2
+    attributes:
+      data-class: action-links .button
+  content-exposed-filters:
+    id: content-exposed-filters
+    plugin: text
+    label: 'Filter your available content.'
+    body: 'Using these filters you can drill down on your available filters.'
+    weight: 3
+    attributes:
+      data-class: views-exposed-form
+  content-views-table:
+    id: content-views-table
+    plugin: text
+    label: 'Find your available content.'
+    body: 'Available content will display in this table'
+    weight: 4
+    attributes:
+      data-class: views-table
